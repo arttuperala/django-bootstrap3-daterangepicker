@@ -69,7 +69,7 @@ class DateRangeWidget(forms.TextInput):
     def __format_date(self, value):
         return formats.localize_input(value, self.__format())
 
-    def _format_value(self, value):
+    def format_value(self, value):
         if isinstance(value, tuple):
             return self.__format_date(value[0]) + \
                    self.separator + \

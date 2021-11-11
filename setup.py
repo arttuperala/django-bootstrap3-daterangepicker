@@ -12,7 +12,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='django_bootstrap3_daterangepicker',
-    version='1.0.1',
+    version='1.1.0',
 
     description='Django date range form field',
     long_description=long_description,
